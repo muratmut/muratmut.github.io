@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 classes: wide
 title: Research
 permalink: /another/
