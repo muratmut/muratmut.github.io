@@ -3,7 +3,7 @@ layout: page
 title: Research
 date: 2019-07-06 23:22:00 +0000
 last_modified_at: 2019-07-07 23:22:00 +0000
-permalink: /research/
+permalink: /another/
 ---
 
 
