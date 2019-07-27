@@ -1,5 +1,6 @@
 ---
 layout: page
+classes: wide
 title: Research
 permalink: /another/
 ---
