@@ -7,7 +7,7 @@ permalink: /research/
 ---
 
 
-My expertise is in Optimization and Operations Research. My Ph.D research revolved around theoretical complexity bounds of interior-point methods. Here are the links to my publications:
+My expertise is in Optimization and Operations Research. My Ph.D research revolved around theoretical complexity bounds of interior-point methods. Here are the links to my  publications:
 
 * [The iteration-complexity upper bound for the Mizuno-Todd-Ye predictor-corrector algorithm is tight.](https://link.springer.com/chapter/10.1007/978-3-030-12119-8_6)
 * [An analogue of the Klee-Walkup result for Sonnevend’s curvature of the central path](http://link.springer.com/article/10.1007%2Fs10957-015-0764-2)
