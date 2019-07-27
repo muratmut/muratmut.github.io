@@ -6,7 +6,6 @@ permalink: /another/
 
 ![Test Image 1](https://muratmut.github.io/images/capture.png){:height="25%" width="25%"}
 
-$$x^2=4$$. On the other hand
 
 My expertise is in Optimization and Operations Research. My Ph.D research revolved around theoretical complexity bounds of interior-point methods. Here are the links to my  publications:
 
