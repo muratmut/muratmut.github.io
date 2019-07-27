@@ -4,7 +4,8 @@ title: Research
 permalink: /another/
 ---
 
-![Test Image 1](/muratmut.github.io/images/capture.png)
+![Test Image 1](https://muratmut.github.io/images/capture.png)
+
 
 My expertise is in Optimization and Operations Research. My Ph.D research revolved around theoretical complexity bounds of interior-point methods. Here are the links to my  publications:
 
