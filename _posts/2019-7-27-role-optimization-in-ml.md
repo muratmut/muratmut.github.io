@@ -7,6 +7,14 @@ title: The role of Optimization in Statistics and Machine Learning
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae neque quis ante convallis accumsan. Duis id ultrices eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Donec euismod ultricies massa eu cursus. Vestibulum in ultricies metus. Sed egestas nisl eget elit sollicitudin venenatis. Sed faucibus felis a felis dictum, a malesuada sapien facilisis. Etiam massa nisi, malesuada ac quam nec, sollicitudin porta ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
 Integer aliquet tincidunt ante, nec dapibus ex dapibus in. Curabitur vestibulum congue ex et maximus. Proin suscipit auctor risus vitae dapibus. Maecenas eu nisl ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam lacus arcu, hendrerit id porttitor vitae, bibendum ut massa. In consequat, neque sit amet tristique fermentum, orci urna rhoncus tellus, et molestie sapien ligula nec nisl. Aenean condimentum condimentum magna ut pellentesque. Donec maximus mi non velit scelerisque, ac placerat arcu porta.
 
 Fusce sed libero eget elit faucibus vulputate. Duis blandit laoreet neque, in tempus elit facilisis vitae. Etiam magna mi, iaculis vel urna eget, pellentesque tincidunt lacus. Fusce sapien arcu, commodo in justo in, posuere maximus urna. Proin rhoncus quis orci sed lacinia. Quisque suscipit felis nec pharetra iaculis. Nunc lobortis, velit vel luctus vehicula, magna urna efficitur nibh, vel finibus ligula lorem in nulla. Proin id nibh quam. Nullam fringilla, velit luctus luctus tincidunt, sapien velit vehicula leo, at semper diam turpis vel nisl. Nam venenatis ac urna sit amet porttitor. Nullam luctus orci erat, ultrices tincidunt quam laoreet at. Aliquam erat volutpat. Pellentesque dapibus diam at massa ullamcorper, cursus tempus tellus porttitor.
