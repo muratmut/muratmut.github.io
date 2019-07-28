@@ -15,11 +15,11 @@ My expertise is in Optimization and Operations Research. My Ph.D research revolv
 * [Generalized equitable preference in multiobjective programming](http://www.sciencedirect.com/science/article/pii/S0377221711001366#)
 
 
-Nowadays, I work closely in 
+Currently, I work actively in 
 * Optimization algorithms in Statistics and Machine Learning
 * Computational Statistics
 
-More generally, I have an interest in Statistics and Machine Learning, see my [blog](https://muratmut.github.io/blog):
+More generally, I am always interested in Statistics and Machine Learning, see my [blog](https://muratmut.github.io/blog):
 
 
 
