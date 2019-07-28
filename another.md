@@ -9,19 +9,11 @@ permalink: /another/
 
 In this blog, we write some equations $$x^2=4.0$$
 
-My expertise is in Optimization and Operations Research. My Ph.D research revolved around theoretical complexity bounds of interior-point methods. Here are the links to my  publications:
+I am working in Data Science at Nielsen. I received a Ph.D in Optimization at Industrial Engineering at Lehigh University. I hold M.S and B.S degrees in Mathematics. You can learn more about my research here:
 
-* [The iteration-complexity upper bound for the Mizuno-Todd-Ye predictor-corrector algorithm is tight.](https://link.springer.com/chapter/10.1007/978-3-030-12119-8_6)
-* [An analogue of the Klee-Walkup result for Sonnevend’s curvature of the central path](http://link.springer.com/article/10.1007%2Fs10957-015-0764-2)
-* [On the volumetric path](http://www.springerlink.com/content/b0l3004g65222083/)
-* [Generalized equitable preference in multiobjective programming](http://www.sciencedirect.com/science/article/pii/S0377221711001366#)
+My current professional work involves, in general terms, is what I would call computational Statistics. This requires using current statistical packages, but also experimenting with open source software. It often includes tweaking the algorithms to suit to big data requirements. Since most machine learning or statistical modeling uses empirical risk minimization or maximum likelihood estimation, the underlying algorithms behind the models uses optimization.
 
-
-Nowadays, I work closely in 
-* Optimization algorithms in Statistics and Machine Learning
-* Computational Statistics
-
-More generally, I have an interest in Statistics and Machine Learning, see my [blog](https://muratmut.github.io/blog):
+More generally, I have an interest in Statistics and Machine Learning, and I am planning to keep my blog writings here:
 
 
 
