@@ -32,11 +32,12 @@ def svd(Q):  # in case we need
 
 Integer aliquet tincidunt ante, nec dapibus ex dapibus in. Curabitur vestibulum congue ex et maximus. Proin suscipit auctor risus vitae dapibus. Maecenas eu nisl ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam lacus arcu, hendrerit id porttitor vitae, bibendum ut massa. In consequat, neque sit amet tristique fermentum, orci urna rhoncus tellus, et molestie sapien ligula nec nisl. Aenean condimentum condimentum magna ut pellentesque. Donec maximus mi non velit scelerisque, ac placerat arcu porta.
 
-| aa   | col1 | col2 |
-| ---- | ---- | ---- |
-| bb   |      |      |
-| cc   |      |      |
-| dd   |      |      |
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
 
 Fusce sed libero eget elit faucibus vulputate. Duis blandit laoreet neque, in tempus elit facilisis vitae. Etiam magna mi, iaculis vel urna eget, pellentesque tincidunt lacus. Fusce sapien arcu, commodo in justo in, posuere maximus urna. Proin rhoncus quis orci sed lacinia. Quisque suscipit felis nec pharetra iaculis. Nunc lobortis, velit vel luctus vehicula, magna urna efficitur nibh, vel finibus ligula lorem in nulla. Proin id nibh quam. Nullam fringilla, velit luctus luctus tincidunt, sapien velit vehicula leo, at semper diam turpis vel nisl. Nam venenatis ac urna sit amet porttitor. Nullam luctus orci erat, ultrices tincidunt quam laoreet at. Aliquam erat volutpat. Pellentesque dapibus diam at massa ullamcorper, cursus tempus tellus porttitor.
 
