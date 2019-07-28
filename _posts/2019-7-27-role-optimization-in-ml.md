@@ -7,12 +7,28 @@ title: The role of Optimization in Statistics and Machine Learning
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae neque quis ante convallis accumsan. Duis id ultrices eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Donec euismod ultricies massa eu cursus. Vestibulum in ultricies metus. Sed egestas nisl eget elit sollicitudin venenatis. Sed faucibus felis a felis dictum, a malesuada sapien facilisis. Etiam massa nisi, malesuada ac quam nec, sollicitudin porta ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+```python
+def main():
+    # change the path below to the folder having .csv data
+    path = '/cg1/SF_estimation_testcases/NielsenMix/QPData/new_contract_data/qp10/'
+
+    controller_table = controller_file_from_csv(path)
+    variable_desc = get_categorical_vars(path)
+
+    raw_data_df, hc = raw_data_spark_df(path, variable_desc)
+
+    interactions = [Interaction('var1', []),
+                    Interaction('var2', [])
+                    ]
+
+    qp_solver_input = QPSolverInput(controller_pd=controller_table, raw_data=raw_data_df, interactions=interactions, csv_path=path, spark=hc, debug=True)
+
+
+    controller = QPSolverControl(qp_solver_input)
+
+    qp_status, solution = controller.run()
+    print qp_status
+
 ```
 
 Integer aliquet tincidunt ante, nec dapibus ex dapibus in. Curabitur vestibulum congue ex et maximus. Proin suscipit auctor risus vitae dapibus. Maecenas eu nisl ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam lacus arcu, hendrerit id porttitor vitae, bibendum ut massa. In consequat, neque sit amet tristique fermentum, orci urna rhoncus tellus, et molestie sapien ligula nec nisl. Aenean condimentum condimentum magna ut pellentesque. Donec maximus mi non velit scelerisque, ac placerat arcu porta.
