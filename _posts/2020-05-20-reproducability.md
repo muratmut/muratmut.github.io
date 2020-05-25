@@ -3,12 +3,13 @@ layout: post
 title: Can the exact same input without randomness generate different outputs?
 ---
 
-![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="50%" width="50%"}
+![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="60%" width="60%"}
 
 For the purpose of this post, reproducibility means that running the same code on the same input should always yield the exact same result.
-Imagine a data scientist who is running a regression model. There are situations where it is normal to expect regression coefficients that can vary each time the same model is run on the same input, e.g. if the underlying algorithm uses the stochastic gradient descent method. The reason is there is already some randomness in the underlying algorithm. But if we know that the algorithm does not involve any randomness, is it possible that we can get different regression coefficients from different runs?
-Let’s suppose we would like to solve a system of linear equations $$Ax=b$$. Note that a very large number of numerical algorithms used in machine learning and statistics require solving such systems and that includes the multilinear regression model. We will solve the Ax=b system using Python Numpy function numpy.linalg.solve. The matrix A is a square matrix of size 13 and b is a vector of all zeros except the last element. That last element will be calculated in two ways; first as (0.3 + 0.2) + 0.1, then as 0.3 + (0.2 + 0.1). Of course, the addition is associative, so mathematically both operations give the same number 0.6.
-The following Python snippet does that:
+
+Imagine a data scientist who is running a regression model. There are situations where it is normal to expect regression coefficients that can vary each time the same model is run on the same input, e.g. if the underlying algorithm uses the [stochastic gradient descent method](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). The reason is there is already some randomness in the underlying algorithm. But if we know that the algorithm does not involve any randomness, is it possible that we can get different regression coefficients from different runs?
+
+Let’s suppose we would like to solve a system of linear equations $$Ax=b$$. Note that a very large number of numerical algorithms used in machine learning and statistics require solving such systems and that includes the multilinear regression model. We will solve the Ax=b system using Python NumPy function numpy.linalg.solve. The matrix A is a square matrix of size 13 and b is a vector of all zeros except the last element. That last element will be calculated in two ways; first as (0.3 + 0.2) + 0.1, then as 0.3 + (0.2 + 0.1). Of course, the addition is associative, so mathematically both operations give the same number 0.6. The following Python snippet does that:
 
 ```python
 import numpy as np
@@ -51,7 +52,7 @@ print(diff)
    1.          -0.5          0.0859375 ]
 ```
 
-Note that the difference between the coefficients x1[7] and x2[7] is larger than 13! Does the numpy.linalg.solve method have any randomness in it? When we look at the Numpy documentation, we see that it uses the LAPACK method gesv, and that algorithm does not have any randomness in it.
+Note that the difference between the coefficients x1[7] and x2[7] is larger than 13! Does the numpy.linalg.solve method have any randomness in it? When we look at the NumPy documentation, we see that it uses the LAPACK method gesv, and that algorithm does not have any randomness in it.
 
 The only reasonable cause of this difference could be in b1 and b2. Indeed when we check the value, we see
 b2[12] - b1[12]= 1.1102230246251565e-16
