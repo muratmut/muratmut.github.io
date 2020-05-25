@@ -73,3 +73,6 @@ Now that we have seen it is very hard to avoid getting occasionally different re
 Another scenario where ill-conditioned matrices appear might be in an optimization algorithm. Note that this is even more subtle because we typically don’t have much control over how the inner calculations of optimization software are performed. If the underlying algorithm does not take special precautions (as is typically the case in open-source software), the optimal solution would be extremely sensitive to the perturbations in the input data. In that case, the modeler would have to perform some sensitivity analysis and identify whether ill-conditioned systems might appear during the execution of the algorithm.
 
 The common saying that “there is no such thing as a free lunch” applies well when it comes to finite-precision computation.
+
+> [1] N. J. Higham. Accuracy and Stability of Numerical Algorithms. Second edition. Society for Industrial and Applied Mathematics, 2002.
+[2] https://techdecoded.intel.io/resources/floating-point-reproducibility-in-intel-software-tools/#gs.6ob68t
