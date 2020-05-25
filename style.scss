@@ -241,25 +241,24 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
 
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
 
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $black;
-    font-size: 22px;
-    font-style: italic;
-  }
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
 
   .comments {
     margin-top: 10px;
