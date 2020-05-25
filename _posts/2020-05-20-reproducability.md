@@ -3,7 +3,7 @@ layout: post
 title: Can the exact same input without randomness generate different outputs?
 ---
 
-![Test Image 1](https://muratmut.github.io/images/repro-p1.png){:height="25%" width="25%"}
+![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="25%" width="25%"}
 
 For the purpose of this post, reproducibility means that running the same code on the same input should always yield the exact same result.
 Imagine a data scientist who is running a regression model. There are situations where it is normal to expect regression coefficients that can vary each time the same model is run on the same input, e.g. if the underlying algorithm uses the stochastic gradient descent method. The reason is there is already some randomness in the underlying algorithm. But if we know that the algorithm does not involve any randomness, is it possible that we can get different regression coefficients from different runs?
@@ -70,4 +70,5 @@ This is the case when exactly the same processor is used. When different process
 Now that we have seen it is very hard to avoid getting occasionally different results in floating-point arithmetic, however small the difference can be, the next question is can we avoid ill-conditioned systems? If so, the subsequent operations would not propagate the resulting errors in the previous steps. The answer is that it depends on the application. A well-known case is in regression models in statistics. It is common to have various degrees of multicollinearity which leads to ill-conditioned systems, which can be alleviated with the addition of a regularization term. Another common way in the regression setting is to identify the multicollinearity and remove certain variables from the model.
 
 Another scenario where ill-conditioned matrices appear might be in an optimization algorithm. Note that this is even more subtle because we typically don’t have much control over how the inner calculations of optimization software are performed. If the underlying algorithm does not take special precautions (as is typically the case in open-source software), the optimal solution would be extremely sensitive to the perturbations in the input data. In that case, the modeler would have to perform some sensitivity analysis and identify whether ill-conditioned systems might appear during the execution of the algorithm.
+
 The common saying that “there is no such thing as a free lunch” applies well when it comes to finite-precision computation.
