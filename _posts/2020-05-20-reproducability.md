@@ -52,7 +52,7 @@ print(diff)
    1.          -0.5          0.0859375 ]
 ```
 
-Note that the difference between the coefficients x1[7] and x2[7] is larger than 13! Does the numpy.linalg.solve method have any randomness in it? When we look at the [NumPy documentation](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html#numpy.linalg.solve), we see that it uses the LAPACK method gesv, and that algorithm does not have any randomness in it.
+Note that the difference between the coefficients x1[7] and x2[7] is larger than 13! Does the numpy.linalg.solve method have any randomness in it? When we look at the [NumPy documentation](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html#numpy.linalg.solve), we see that it uses the [LAPACK method gesv](https://software.intel.com/sites/products/documentation/doclib/mkl_sa/11/mkl_lapack_examples/lapackro1.htm), and that algorithm does not have any randomness in it.
 
 The only reasonable cause of this difference could be in b1 and b2. Indeed when we check the value, we see
 b2[12] - b1[12]= 1.1102230246251565e-16
