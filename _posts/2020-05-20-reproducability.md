@@ -3,7 +3,7 @@ layout: post
 title: Can the exact same input without randomness generate different outputs?
 ---
 
-![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="25%" width="25%"}
+![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="50%" width="50%"}
 
 For the purpose of this post, reproducibility means that running the same code on the same input should always yield the exact same result.
 Imagine a data scientist who is running a regression model. There are situations where it is normal to expect regression coefficients that can vary each time the same model is run on the same input, e.g. if the underlying algorithm uses the stochastic gradient descent method. The reason is there is already some randomness in the underlying algorithm. But if we know that the algorithm does not involve any randomness, is it possible that we can get different regression coefficients from different runs?
