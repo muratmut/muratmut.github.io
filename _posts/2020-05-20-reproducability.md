@@ -75,4 +75,5 @@ Another scenario where ill-conditioned matrices appear might be in an optimizati
 The common saying that “there is no such thing as a free lunch” applies well when it comes to finite-precision computation.
 
 > [1] N. J. Higham. Accuracy and Stability of Numerical Algorithms. Second edition. Society for Industrial and Applied Mathematics, 2002.
+
 [2] https://techdecoded.intel.io/resources/floating-point-reproducibility-in-intel-software-tools/#gs.6ob68t
