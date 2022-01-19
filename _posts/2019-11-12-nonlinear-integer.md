@@ -5,7 +5,7 @@ title: Nonlinear optimization reduces to mixed integer linear optimization. Or d
 
 ## **Coming soon.**
 
-![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="60%" width="80%"}
+![Test Image 1](https://muratmut.github.io/images/repro-p1.PNG){:height="60%" width="90%"}
 
 For the purpose of this post, reproducibility means that running the same code on the same input should always yield the exact same result.
 
