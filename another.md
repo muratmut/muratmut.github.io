@@ -15,8 +15,7 @@ My professional work involves, in general terms, is what I would call computatio
 
 More generally, I am interested in Statistics (a fan of Bayesian modeling) and Machine Learning.
 Particular long-term topics of my interest: 
-
-Causal inference, Bayesian modeling, Decision theory, Tabular data in ML, Statistical computing.
+- Causal inference, Bayesian modeling, Decision theory, Tabular data in ML, Statistical computing.
 
 I am planning to write blog [posts](https://muratmut.github.io/blog/) on those subjects occasionally.
 
