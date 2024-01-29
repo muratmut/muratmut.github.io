@@ -6,7 +6,7 @@ permalink: /another/
 
 <img src="../images/capture.png" alt="photo" width="150" />
 
-I am work in Data Science. I received a Ph.D in Operations Research at 
+I work in Data Science. I received a Ph.D in Operations Research at 
 [Industrial Engineering at Lehigh University](https://engineering.lehigh.edu/ise). I hold M.S and B.S degrees in Mathematical Sciences.
 
 You can learn more about my research [here:](https://muratmut.github.io/research/)
