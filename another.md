@@ -11,11 +11,10 @@ I am working in Data Science. I received a Ph.D in Operations Research at
 
 You can learn more about my research [here:](https://muratmut.github.io/research/)
  
-My professional work involves, in general terms, is what I would call computational Statistics. This requires using current statistical packages, but also experimenting with open source software. It often includes tweaking the algorithms to suit to big data requirements. Since most machine learning or statistical modeling uses [empirical risk minimization](https://en.wikipedia.org/wiki/Empirical_risk_minimization) or maximum likelihood estimation, the underlying algorithms behind the models uses optimization.  
+My professional work involves, in general terms, building statistical/ML workflows, ensuring seamless production integration. Automating a statistical workflow with open-source software without compromising the model quality or run-time is challenging. 
 
-More generally, I am interested in Statistics (a fan of Bayesian modeling) and Machine Learning.
-Particular long-term topics of my interest: 
-- Causal inference, Bayesian modeling, Decision theory, Tabular data in ML, Statistical computing.
+I am interested in Statistics (a fan of Bayesian modeling) and Machine Learning. Particular long-term topics of my interest: 
+- Statistical computing, causal inference, Bayesian modeling, Decision theory, Tabular data in ML.
 
 I am planning to write blog [posts](https://muratmut.github.io/blog/) on those subjects occasionally.
 
